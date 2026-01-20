@@ -1,0 +1,9 @@
+.full-width {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

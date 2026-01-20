@@ -1,0 +1,21 @@
+.order-row td {
+  padding: 12px 8px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.badge {
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.shipped { background: #e8fff1; color: #1e8a4d; }
+.cancelled { background: #ffeee8; color: #c63d2f; }
+.fulfilled { background: #eaf1ff; color: #3d5ac6; }
+.order-row {
+  cursor: pointer;
+}
+
+.order-row:hover {
+  background: #f9fafb;
+}

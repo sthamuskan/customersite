@@ -1,0 +1,93 @@
+.page-wrapper {
+  padding: 20px 40px;
+  background: #f7f8fa;
+  min-height: 100vh;
+}
+
+/* Layout */
+.page-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+
+.page-card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}
+
+/* Fields */
+.field { margin-bottom: 8px; }
+
+.page-card input,
+.page-card textarea {
+  width: 100%;
+  padding: 9px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+textarea { min-height: 70px; }
+
+.error {
+  color: #e63946;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+/* Payment chips */
+.payment-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.payment-chip {
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.payment-chip.active {
+  border-color: #111;
+  background: #111;
+  color: #fff;
+}
+
+/* Summary */
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+}
+
+.total {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Button */
+.primary-btn {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  background: #28a745;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary-btn:hover { opacity: .9; }
+
+/* Mobile */
+@media (max-width: 900px) {
+  .page-grid { grid-template-columns: 1fr; }
+  .page-wrapper { padding: 16px; }
+}

@@ -1,0 +1,152 @@
+/* HEADER */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+/* LEFT */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 28px;
+}
+
+.brand-name {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* SEARCH */
+.search-box input {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+/* RIGHT */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* ICON + BADGE */
+.icon-wrapper {
+  position: relative;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: #ef4444;
+  color: white;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+
+/* PROFILE */
+.profile-wrapper {
+  position: relative;
+}
+
+.profile-pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* PROFILE DROPDOWN */
+.profile-dropdown {
+  position: absolute;
+  top: 42px;
+  right: 0;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  width: 160px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+  z-index: 1000;
+}
+
+.profile-dropdown a {
+  display: block;
+  padding: 8px 14px;
+  text-decoration: none;
+  color: #333;
+}
+
+.profile-dropdown a:hover {
+  background: #f3f4f6;
+}
+
+.profile-dropdown hr {
+  margin: 6px 0;
+  border-top: 1px solid #e5e7eb;
+}
+
+.logout-btn {
+  width: 100%;
+  padding: 8px 14px;
+  border: none;
+  background: transparent;
+  color: #e11d48;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #fef2f2;
+}
+
+/* CART DROPDOWN */
+.cart-dropdown {
+  position: absolute;
+  top: 42px;
+  right: 0;
+  width: 200px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+}
+
+.cart-title {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.cart-item {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.checkout-btn {
+  display: block;
+  margin-top: 8px;
+  text-align: center;
+  padding: 6px;
+  background: #111827;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+}
